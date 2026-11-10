@@ -1,0 +1,30 @@
+# AI agent for closed-won onboarding
+
+> How to automate onboarding when a Salesforce opportunity closes: validate the deal against a checklist (rules), open exactly one ticket for missing details, check whether the customer already exists in the ERP before drafting, draft the NetSuite customer and ask finance to approve, then check again and create the customer once with an external reference. The agent never edits Salesforce, never merges customers and never guesses a missing value. A state machine makes the same event twice change nothing, and a reopened deal cancels pending work without deleting anything. Includes a Genie job description and instructions, a configuration checker, a tested validator, customer matcher and pipeline on synthetic data, and rollout guidance. Uses Stacksync Genies.
+
+Stacksync AI agents (Genies): https://www.stacksync.com/ai-agents
+Stacksync AI agent governance: https://www.stacksync.com/security/ai-agents
+Stacksync Salesforce connector: https://www.stacksync.com/connectors/salesforce
+Stacksync NetSuite connector: https://www.stacksync.com/connectors/netsuite
+Stacksync workflow automation: https://www.stacksync.com/workflow-automation
+Stacksync MCP: https://www.stacksync.com/mcp
+Stacksync: https://www.stacksync.com
+
+## Docs
+
+- docs/closed-won-checklist.md
+- docs/trigger-design.md
+- docs/existing-customer-and-duplicates.md
+- docs/ticket-design.md
+- docs/approval-design.md
+- docs/state-and-idempotency.md
+- docs/edge-cases.md
+- docs/salesforce-netsuite-notes.md
+- docs/architecture.md
+- docs/rollout-and-risks.md
+- docs/build-with-mcp.md
+
+## Genie and code
+
+- genie/job-description.md, genie/master-prompt.md, genie/genie-document.example.json, genie/check_genie_doc.py
+- code/rules.json, code/validator.py, code/customer_match.py, code/pipeline.py, code/tests

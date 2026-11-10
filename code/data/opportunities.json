@@ -1,0 +1,197 @@
+{
+  "O-1": {
+    "opportunity": {
+      "id": "O-1",
+      "stage": "Closed Won",
+      "amount": "24000",
+      "currency": "USD",
+      "package": "Growth",
+      "contract_url": "https://contracts.example/O-1",
+      "close_date": "2026-11-03"
+    },
+    "account": {
+      "id": "A-Umb",
+      "name": "Umbrella",
+      "legal_name": "Umbrella Inc",
+      "website": "https://www.umbrella.example",
+      "tax_id": "",
+      "country": "US",
+      "currency": "USD",
+      "payment_terms": "Net 30",
+      "subsidiary": "US Inc",
+      "billing_address": {
+        "street": "1 Main St",
+        "city": "Springfield",
+        "region": "IL",
+        "postal": "62701",
+        "country": "US"
+      }
+    },
+    "contacts": [
+      {
+        "id": "K-Ad",
+        "name": "Ada Lopez",
+        "email": "ada@umbrella.example",
+        "roles": [
+          "billing"
+        ]
+      }
+    ]
+  },
+  "O-2": {
+    "opportunity": {
+      "id": "O-2",
+      "stage": "Closed Won",
+      "amount": "24000",
+      "currency": "USD",
+      "package": "Growth",
+      "contract_url": "https://contracts.example/O-2",
+      "close_date": "2026-11-03"
+    },
+    "account": {
+      "id": "A-Soy",
+      "name": "Soylent",
+      "legal_name": "Soylent GmbH",
+      "website": "https://www.soylent.example",
+      "tax_id": "",
+      "country": "DE",
+      "currency": "USD",
+      "payment_terms": "",
+      "subsidiary": "US Inc",
+      "billing_address": {
+        "street": "1 Main St",
+        "city": "Springfield",
+        "region": "IL",
+        "postal": "62701",
+        "country": "DE"
+      }
+    },
+    "contacts": [
+      {
+        "id": "K-Be",
+        "name": "Ben Roth",
+        "email": "ben@soylent.example",
+        "roles": [
+          "champion"
+        ]
+      }
+    ]
+  },
+  "O-3": {
+    "opportunity": {
+      "id": "O-3",
+      "stage": "Closed Won",
+      "amount": "24000",
+      "currency": "USD",
+      "package": "Growth",
+      "contract_url": "https://contracts.example/O-3",
+      "close_date": "2026-11-03"
+    },
+    "account": {
+      "id": "A-Glo",
+      "name": "Globex",
+      "legal_name": "Globex Corp",
+      "website": "https://www.globex.example",
+      "tax_id": "DE123456789",
+      "country": "DE",
+      "currency": "USD",
+      "payment_terms": "Net 30",
+      "subsidiary": "US Inc",
+      "billing_address": {
+        "street": "1 Main St",
+        "city": "Springfield",
+        "region": "IL",
+        "postal": "62701",
+        "country": "DE"
+      }
+    },
+    "contacts": [
+      {
+        "id": "K-Cy",
+        "name": "Cy Ng",
+        "email": "cy@globex.example",
+        "roles": [
+          "billing"
+        ]
+      }
+    ]
+  },
+  "O-4": {
+    "opportunity": {
+      "id": "O-4",
+      "stage": "Closed Won",
+      "amount": "24000",
+      "currency": "USD",
+      "package": "Growth",
+      "contract_url": "https://contracts.example/O-4",
+      "close_date": "2026-11-03"
+    },
+    "account": {
+      "id": "A-Ini",
+      "name": "Initech",
+      "legal_name": "Initech LLC",
+      "website": "https://www.initech.example",
+      "tax_id": "",
+      "country": "US",
+      "currency": "USD",
+      "payment_terms": "Net 30",
+      "subsidiary": "US Inc",
+      "billing_address": {
+        "street": "1 Main St",
+        "city": "Springfield",
+        "region": "IL",
+        "postal": "62701",
+        "country": "US"
+      }
+    },
+    "contacts": [
+      {
+        "id": "K-Di",
+        "name": "Di Park",
+        "email": "di@initech.example",
+        "roles": [
+          "billing"
+        ]
+      }
+    ]
+  },
+  "O-5": {
+    "opportunity": {
+      "id": "O-5",
+      "stage": "Negotiation",
+      "amount": "24000",
+      "currency": "USD",
+      "package": "Growth",
+      "contract_url": "https://contracts.example/O-5",
+      "close_date": "2026-11-03"
+    },
+    "account": {
+      "id": "A-Hoo",
+      "name": "Hooli",
+      "legal_name": "Hooli Inc",
+      "website": "https://www.hooli.example",
+      "tax_id": "",
+      "country": "US",
+      "currency": "USD",
+      "payment_terms": "Net 30",
+      "subsidiary": "US Inc",
+      "billing_address": {
+        "street": "1 Main St",
+        "city": "Springfield",
+        "region": "IL",
+        "postal": "62701",
+        "country": "US"
+      }
+    },
+    "contacts": [
+      {
+        "id": "K-Ed",
+        "name": "Ed Cho",
+        "email": "ed@hooli.example",
+        "roles": [
+          "billing"
+        ]
+      }
+    ]
+  }
+}

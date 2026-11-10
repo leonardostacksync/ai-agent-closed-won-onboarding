@@ -1,0 +1,14 @@
+[
+  {
+    "id": "C-100",
+    "name": "Globex Corporation",
+    "tax_id": "DE 123456789",
+    "domain": "globex.example"
+  },
+  {
+    "id": "C-101",
+    "name": "Initech",
+    "tax_id": "",
+    "domain": "initech-legacy.example"
+  }
+]

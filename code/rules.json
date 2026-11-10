@@ -1,0 +1,18 @@
+{
+  "note": "EXAMPLE rules. Replace every list and requirement with what Finance, Legal and Sales agree. Nothing here is a regulatory statement.",
+  "required": [
+    {"path": "account.legal_name", "label": "Legal entity name", "owner": "sales", "check": "nonempty"},
+    {"path": "account.billing_address.street", "label": "Billing street", "owner": "sales", "check": "nonempty"},
+    {"path": "account.billing_address.city", "label": "Billing city", "owner": "sales", "check": "nonempty"},
+    {"path": "account.billing_address.postal", "label": "Billing postal code", "owner": "sales", "check": "nonempty"},
+    {"path": "account.billing_address.country", "label": "Billing country (2 letters)", "owner": "sales", "check": "country"},
+    {"path": "account.currency", "label": "Billing currency", "owner": "sales", "check": "currency"},
+    {"path": "account.payment_terms", "label": "Payment terms", "owner": "finance", "check": "one_of", "allowed": ["Net 15", "Net 30", "Net 45", "Due on receipt"]},
+    {"path": "account.subsidiary", "label": "Selling entity (subsidiary)", "owner": "finance", "check": "one_of", "allowed": ["US Inc", "UK Ltd", "EU GmbH"]},
+    {"path": "opportunity.package", "label": "Package sold", "owner": "sales", "check": "one_of", "allowed": ["Starter", "Growth", "Enterprise"]},
+    {"path": "opportunity.contract_url", "label": "Signed contract link", "owner": "sales", "check": "nonempty"}
+  ],
+  "billing_contact": {"owner": "sales", "label": "Billing contact with a valid email (role: billing)"},
+  "tax_id_required_countries": ["DE", "FR", "ES", "IT"],
+  "tax_id": {"path": "account.tax_id", "label": "Tax registration number", "owner": "customer"}
+}

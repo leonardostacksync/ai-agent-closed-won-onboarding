@@ -1,0 +1,25 @@
+{
+  "genie_config": {
+    "master_prompt": "REPLACE_WITH_THE_CONTENTS_OF_master-prompt.md",
+    "model_selection": { "model": "" },
+    "skills": [
+      {"id": "REPLACE_WITH_MODULE_ID_FROM_connectors_get", "name": "Read opportunity, account and contacts", "type": "Module", "enabled": true,
+       "connection": "REPLACE_WITH_SALESFORCE_CONNECTION_ID", "approval_policy": "always_allow"},
+      {"id": "REPLACE_WITH_MODULE_ID_FROM_connectors_get", "name": "Search customers", "type": "Module", "enabled": true,
+       "connection": "REPLACE_WITH_NETSUITE_CONNECTION_ID", "approval_policy": "always_allow"},
+      {"id": "REPLACE_WITH_MODULE_ID_FROM_connectors_get", "name": "Search tickets", "type": "Module", "enabled": true,
+       "connection": "REPLACE_WITH_HELP_DESK_CONNECTION_ID", "approval_policy": "always_allow"},
+      {"id": "REPLACE_WITH_MODULE_ID_FROM_connectors_get", "name": "Create ticket", "type": "Module", "enabled": true,
+       "connection": "REPLACE_WITH_HELP_DESK_CONNECTION_ID", "approval_policy": "always_allow"},
+      {"id": "REPLACE_WITH_MODULE_ID_FROM_connectors_get", "name": "Create customer", "type": "Module", "enabled": true,
+       "connection": "REPLACE_WITH_NETSUITE_CONNECTION_ID", "approval_policy": "approval_required"},
+      {"id": "REPLACE_WITH_MODULE_ID_FROM_connectors_get", "name": "Post message", "type": "Module", "enabled": true,
+       "connection": "REPLACE_WITH_SLACK_CONNECTION_ID", "approval_policy": "always_allow"}
+    ],
+    "interfaces": [
+      { "type": "app_trigger", "connection_id": "REPLACE_WITH_SALESFORCE_CONNECTION_ID", "details": "Salesforce: Opportunity" }
+    ],
+    "tools": { "web_search": false, "execute_browser": false, "api_call": false, "code_execution": false }
+  },
+  "knowledge_bases": []
+}
